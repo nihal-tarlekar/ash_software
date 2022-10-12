@@ -1,0 +1,2510 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body,
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+@media screen and (max-width:2736px) and (max-height:1166px) {
+.carousel-inner {
+    height: 110vh;
+}
+/*
+.sub-head {
+    position: relative;
+}
+*/
+.sub-head {
+    left: 45%;
+/*    top: 105%;*/
+}
+
+.content {
+    bottom: -5%;
+}
+
+}
+@media screen and (max-width:2560px) {
+	
+	.sub-head {
+    position:absolute;
+    }
+    body div.nav__content {
+        display: none
+    }
+    .homeslider-img {
+        height: 90vh
+    }
+    .right-para {
+        padding-right: 2%!important
+    }
+    .agile-para p {
+    font-size: 36px;
+    line-height: 60px;
+}
+    .agile-para {
+        padding: 7%;
+        padding-left: 5%
+    }
+    .sub-head {
+        font-size: 20px;
+        padding-bottom: 2%;
+        z-index: 100!important;
+        bottom: 1%!important;
+        left: 37%
+    }
+    .carousel-inner {
+        height: 99vh
+    }
+    .social-logo {
+        float: left;
+        width: 12%;
+        margin-right: 3%
+    }
+    .content {
+        bottom: 11%
+    }
+    .slider-wrapper {
+        font-size: 85px
+    }
+    .slider {
+        height: 103px;
+        padding-left: 15px;
+        overflow: hidden;
+        margin-bottom: 1%
+    }
+    .menu-icon__line {
+        height: 3px;
+        width: 34px;
+        margin-bottom: 8px;
+        margin-left: 12%
+    }
+    .sub-head {
+        font-size: 40px
+    }
+    .menu-icon__line-left {
+        width: 48px;
+        margin-bottom: 8px;
+        margin-left: -23%
+    }
+    .menu-icon__line-right {
+        width: 25px
+    }
+    .menu-icon {
+        height: 30px;
+        width: 40px;
+        right: 3%;
+        top: 4.5%
+    }
+    .nav-list-item-last {
+        float: right;
+        margin-right: 35%
+    }
+    .nav__list-item:before {
+        width: 20px;
+        height: 1px;
+        left: 1.5%
+    }
+    body.nav-active .menu-icon__line {
+        margin-top: -21%;
+        width: 112%
+    }
+    .home-about .home-about-lft {
+        background-position: left
+    }
+    .home-about .home-about-lft .top-caption {
+        font-size: 32px;
+        letter-spacing: 4px
+    }
+    .home-about .home-about-lft .title {
+        font-size: 96px;
+        line-height: 99px;
+        margin-bottom: 18%;
+        margin-top: 4%;
+        margin-left: -1%
+    }
+    .home-about .home-about-lft .know-more-btn {
+        font-size: 37px;
+        padding: 2%;
+        padding-left: 7%;
+        padding-right: 7%
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 2%;
+        right: 24%;
+        width: 35%;
+        margin-top: 13%
+    }
+    .home-about-para {
+        font-size: 37px;
+        padding: 8%;
+        padding-right: 0
+    }
+    .home-about .home-about-lft {
+        padding: 8%
+    }
+    .passionate .passionate-heading {
+        font-size: 99px;
+        line-height: 86px
+    }
+    .lft {
+        width: 46%;
+        float: left;
+        font-size: 96px;
+        line-height: 56px;
+        margin-left: 1%
+    }
+    .passionate-para {
+        font-size: 28px;
+        padding-right: 15%
+    }
+    .passionate-div img {
+        width: 100%
+    }
+    .passionate-div .subheading {
+        font-size: 23px;
+        padding: 5%;
+        padding-bottom: 0
+    }
+    .passionate-div .heading {
+        color: #ff8310;
+        padding-top: 4%;
+        margin-bottom: 0;
+        font-size: 35px
+    }
+    .passionate-div {
+        background-color: #fff;
+        padding: 6%;
+        text-align: center;
+        height: 765px
+    }
+    .our-outlook .our-outlook-heading {
+        font-size: 96px;
+        line-height: 70px
+    }
+    .our-outlook .our-outlook-para {
+        font-size: 28px;
+        padding-top: 8%;
+        padding-bottom: 10%;
+        padding-left: 33%;
+        padding-right: 16%
+    }
+    .our-outlook .our-outlook-div .heading {
+        font-size: 32px
+    }
+    .our-outlook .our-outlook-div .outlookpara {
+        font-size: 20px
+    }
+    .excellence .lft .subtitle,
+    .excellence-caption p {
+        font-size: 44px;
+        margin-top: 4%;
+        padding-right: 43%;
+        line-height: 48px
+    }
+    .excellence .lft .title,
+    .excellence-caption h2 {
+        font-size: 113px;
+        line-height: 85px;
+        margin-bottom: 18%;
+        margin-top: 4%;
+        margin-left: -1%
+    }
+    .home-get-in-touch-btn a {
+        font-size: 32px
+    }
+    .home-get-in-touch-btn {
+        width: 78%
+    }
+    .home-contact .title {
+        font-size: 66px;
+        line-height: 55px
+    }
+    .home-contact .para {
+        font-size: 27px
+    }
+    .home-contact .subpara {
+        font-size: 27px
+    }
+    .footer-link {
+        font-size: 28px
+    }
+    .footer-sublink {
+        font-size: 15px;
+        color: #696868
+    }
+    .footer-contact {
+        font-size: 20px
+    }
+    .footer-contact {
+        color: #696868;
+        font-size: 20px
+    }
+    .social-title {
+        font-size: 29px
+    }
+    .footer-address {
+        font-size: 26px;
+        padding: 9%;
+        padding-left: 0;
+        line-height: 28px
+    }
+    .contact-subtitle {
+        font-size: 32px;
+        letter-spacing: -1.5px
+    }
+    .contact-title {
+        font-size: 70px;
+        margin-bottom: -15px;
+        letter-spacing: -2px
+    }
+    .frm-box {
+        width: 96%;
+        margin-bottom: 5%;
+        padding: 3%;
+        font-size: 25px;
+        margin-left: .5%
+    }
+    .btn-smt {
+        font-size: 25px;
+        margin-right: 4%
+    }
+    .contact-para {
+        font-size: 25px
+    }
+}
+
+@media screen and (max-width:1920px) and (max-height:1080px) {
+    .agile-para {
+        padding: 6%
+    }
+.agile-para p {
+    font-size: 30px;
+}
+    .agile-working-img {
+        padding-left: 5%;
+        padding-right: 9%
+    }
+    .navbar {
+        z-index: 102;
+        width: 100%;
+        padding: 2%
+    }
+    .sub-head {
+        font-size: 36px;
+        bottom: 0!important;
+        left: 35%
+    }
+    .about-title {
+        margin-top: -20%;
+        height: 290px;
+        margin-left: 30%;
+        width: 58%
+    }
+    .menu-icon {
+        height: 30px;
+        width: 30px;
+        z-index: 101;
+        right: 50px;
+        top: 5%
+    }
+    .menu-icon__line {
+        height: 2px;
+        width: 20px;
+        margin-bottom: 4px;
+        margin-left: 32%
+    }
+    .menu-icon__line-left {
+        width: 25px;
+        margin-left: 18%
+    }
+    .menu-icon__line-right {
+        width: 15px;
+        float: right
+    }
+    .nav {
+        position: fixed;
+        padding: 0
+    }
+    .excellence .rft {
+        max-width: 48%!important
+    }
+    .footer-address {
+        font-size: 19px
+    }
+    body.nav-active .nav__content {
+        position: fixed;
+        top: 53%;
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        width: 100%;
+        text-align: center;
+        font-size: calc(2vw + 10px);
+        font-weight: 200;
+        cursor: pointer;
+        left: 4%;
+        display: block;
+        z-index: 101
+    }
+    body div.nav__content {
+        display: none
+    }
+    body.nav__content .nav__list-item {
+        display: none
+    }
+    .nav__list-item {
+        margin-right: 19%;
+        margin-right: 100px;
+        margin-top: 4%
+    }
+    .nav__list-item p {
+        font-size: 15px
+    }
+    .nav-list-item-last {
+        margin-right: 30%
+    }
+    .nav__list-item:before {
+        content: "";
+        width: 20px;
+        height: 1px;
+        top: 100%
+    }
+    .nav__list-item:hover:before {
+        width: 20%
+    }
+    body.nav-active .menu-icon__line {
+        width: 100%
+    }
+    body.nav-active .menu-icon__line-left {
+        width: 0%!important
+    }
+    body.nav-active .menu-icon__line-right {
+        width: 62%
+    }
+    body.nav-active .menu-icon__line-right {
+        width: 100%
+    }
+    .content {
+        width: 100vw;
+        display: flex;
+        padding-top: 3%;
+        position: absolute;
+        bottom: 10%;
+        z-index: 100
+    }
+    .slider-wrapper {
+        font-size: 69px
+    }
+    .slider {
+        margin-bottom: -1%
+    }
+    .sub-head {
+        font-size: 36px
+    }
+    .home-about .home-about-lft .top-caption {
+        letter-spacing: 4px
+    }
+    .home-about .home-about-lft .top-caption {
+        font-size: 26px
+    }
+    .home-about .home-about-lft .title {
+        font-size: 74px;
+        line-height: 69px
+    }
+    .home-about .home-about-lft .know-more-btn {
+        font-size: 30px
+    }
+    .home-about-para {
+        font-size: 30px;
+        padding: 3%;
+        padding-right: 4%
+    }
+    .lft {
+        width: 51%;
+        float: left;
+        font-size: 76px;
+        line-height: 27px;
+        margin-left: 1.5%
+    }
+    .passionate .passionate-heading {
+        line-height: 71px;
+        font-size: 78px
+    }
+    .passionate-para {
+        font-size: 28px;
+        padding-right: 15%;
+        padding-bottom: 9%
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 680px
+    }
+    .passionate-div .heading {
+        padding-top: 4%;
+        font-size: 30px;
+        line-height: 36px
+    }
+    .passionate-div .subheading {
+        font-size: 24px
+    }
+    .our-outlook .our-outlook-div .outlookpara {
+        font-size: 22px
+    }
+    .excellence .lft .title,
+    .excellence-caption h2 {
+        font-size: 92px;
+        line-height: 73px;
+        margin-bottom: 18%;
+        margin-top: 4%;
+        margin-left: -1%
+    }
+    .excellence .lft .subtitle,
+    .excellence-caption p {
+        font-size: 36px;
+        margin-top: 4%;
+        padding-right: 31%;
+        line-height: 48px
+    }
+    .home-contact .title {
+        font-size: 57px;
+        line-height: 55px
+    }
+    .home-get-in-touch-btn {
+        width: 100%
+    }
+    .contact-title {
+        font-size: 60px
+    }
+    .frm-box {
+        width: 99%
+    }
+    .btn-smt {
+        font-size: 22px;
+        margin-right: 2%
+    }
+    .contact-para {
+        font-size: 22px
+    }
+    .contact-title {
+        font-size: 46px
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .agile-para p {
+        font-size: 23px;
+        line-height: 40px
+    }
+	 .agile-para p {
+    font-size: 24px;
+    line-height: 40px;
+}
+    .second-agile-para {
+        padding-top: 2%;
+        padding-bottom: 0;
+        margin-bottom: 0
+    }
+    .agile-working-img {
+        padding-left: 3%
+    }
+    .contact-title {
+        font-size: 46px
+    }
+    .contact-subtitle {
+        font-size: 24px
+    }
+    .frm-box {
+        font-size: 21px
+    }
+    .contact-para {
+        font-size: 18px
+    }
+    .menu-icon {
+        top: 5%;
+        right: 4%
+    }
+    .slider-wrapper {
+        font-size: 54px
+    }
+    .sub-head {
+        font-size: 25px
+    }
+    .slider {
+        margin-bottom: -4%;
+        margin-top: -1%
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 525px
+    }
+    .home-about .home-about-lft .top-caption {
+        font-size: 20px;
+        letter-spacing: 2px
+    }
+    .home-about .home-about-lft .title {
+        font-size: 60px;
+        line-height: 59px
+    }
+    .home-about .home-about-lft .know-more-btn {
+        font-size: 22px
+    }
+    .home-about-para {
+        font-size: 24px;
+        padding: 2%;
+        padding-right: 16%
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 0;
+        right: 24%;
+        width: 30%;
+        margin-top: 11%
+    }
+    .passionate-para {
+        font-size: 21px;
+        padding-right: 15%;
+        padding-bottom: 9%
+    }
+    .lft {
+        width: 49%;
+        float: left;
+        font-size: 62px;
+        color: #ff6b0f;
+        line-height: 30px
+    }
+    .passionate .passionate-heading {
+        line-height: 56px;
+        font-size: 64px
+    }
+    .passionate-div .heading {
+        font-size: 25px;
+        line-height: 27px
+    }
+    .passionate-div .subheading {
+        font-size: 18px
+    }
+    .our-outlook .our-outlook-heading {
+        font-size: 82px;
+        line-height: 66px
+    }
+    .our-outlook .our-outlook-para {
+        font-size: 19px;
+        padding-top: 16%;
+        padding-bottom: 15%;
+        padding-left: 33%;
+        padding-right: 16%
+    }
+    .our-outlook .our-outlook-div .heading {
+        font-size: 26px
+    }
+    .our-outlook .our-outlook-div .outlookpara {
+        font-size: 16px
+    }
+    .excellence .lft .subtitle,
+    .excellence-caption p {
+        font-size: 28px;
+        margin-top: 4%;
+        padding-right: 31%;
+        line-height: 31px
+    }
+    .excellence .lft .title,
+    .excellence-caption h2 {
+        font-size: 80px;
+        line-height: 68px;
+        margin-bottom: 18%;
+        margin-top: 4%;
+        margin-left: -1%;
+        letter-spacing: -2px
+    }
+    .right-para {
+        padding-right: 4%!important
+    }
+    .home-contact .title {
+        font-size: 47px;
+        line-height: 49px
+    }
+    .home-contact .para {
+        font-size: 24px
+    }
+    .excellence .lft {
+        background-color: #5d40d5;
+        padding: 10%;
+        padding-right: 15%;
+        margin-left: 0
+    }
+    .footer-address {
+        font-size: 16px;
+        line-height: 20px
+    }
+    .footer-link {
+        font-size: 18px
+    }
+    .footer-sublink {
+        font-size: 13px;
+        color: #696868
+    }
+    .nav-list-item-last {
+        margin-right: 26%
+    }
+    .navbar-dark .navbar-brand {
+        color: #fff;
+        z-index: 102;
+        padding-left: 1%
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .btn-smt {
+        font-size: 18px;
+        margin-right: 2%;
+        padding: 1.5%;
+        padding-left: 9%;
+        padding-right: 9%
+    }
+    .agile-para {
+        padding: 5%
+    }
+    .agile-para p {
+        font-size: 24px;
+        line-height: 38px
+    }
+    .mountains {
+        font-size: 106px;
+        padding-top: 1%
+    }
+    .slider-wrapper {
+        font-size: 52px
+    }
+    .nav-list-item-last {
+        margin-right: 23.5%
+    }
+    .lft {
+        margin-left: 1.7%
+    }
+    .slider {
+        margin-bottom: -5%
+    }
+    .sub-head {
+        font-size: 26px
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 480px
+    }
+    .home-get-in-touch-btn a {
+        font-size: 24px
+    }
+    .home-about .home-about-lft .top-caption {
+        font-size: 18px;
+        letter-spacing: 2px
+    }
+    .home-about .home-about-lft .title {
+        font-size: 59px;
+        line-height: 68px
+    }
+    .home-about .home-about-lft .know-more-btn {
+        font-size: 21px
+    }
+    .home-about-para {
+        font-size: 22px
+    }
+    .passionate .passionate-heading {
+        line-height: 56px;
+        font-size: 60px
+    }
+    .lft {
+        font-size: 60px;
+        width: 52%
+    }
+    .passionate-div .subheading {
+        font-size: 17px
+    }
+    .excellence .lft .subtitle,
+    .excellence-captionp {
+        font-size: 23px
+    }
+    .home-contact .para {
+        font-size: 23px
+    }
+    .footer-contact {
+        font-size: 14px
+    }
+    .social-title {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width:1366px) and (max-height:768px) {
+    about-caption {
+        margin-top: 19%;
+        left: 21%
+    }
+    .about-us {
+        padding-bottom: 2%
+    }
+    .carousel-inner {
+        height: 103vh
+    }
+    .content {
+        margin-bottom: -2
+    }
+    .carousel-inner {
+        height: 110vh
+    }
+    .sub-head {
+        font-size: 36px;
+        bottom: -15%!important;
+        left: 35%
+    }
+}
+
+@media screen and (max-width:1280px) and (max-height:1024px) {
+    .agile-para p {
+        font-size: 21px;
+        line-height: 27px
+    }
+    .agile-para {
+        padding-bottom: 9%!important;
+        padding: 8%
+    }
+    .recruitment {
+        padding: 5%;
+        padding-right: 0;
+        padding-left: 3%
+    }
+    .slider-wrapper {
+        font-size: 44px
+    }
+    .right-para {
+        padding-right: 2%!important;
+        font-size: 34px;
+        line-height: 38px
+    }
+    .agile-para {
+        padding-bottom: 5%
+    }
+    .excellence .lft .title,
+
+    .excellence-caption h2 {
+        margin-bottom: 7%
+    }
+    .about-title {
+        margin-top: -20%;
+        height: 245px
+    }
+    .sub-head {
+        font-size: 23px;
+        bottom: 12%!important
+    }
+    .slider {
+        margin-bottom: -7%
+    }
+    .carousel-inner {
+        height: 92vh
+    }
+    .content {
+        bottom: 20%
+    }
+    .home-about-para {
+        font-size: 22px
+    }
+    .home-about .home-about-rft {
+        margin-top: 12%
+    }
+    .passionate-para {
+        font-size: 18px
+    }
+    .passionate .passionate-heading {
+        line-height: 56px;
+        font-size: 57px
+    }
+    .lft {
+        font-size: 56px;
+        width: 56%;
+        line-height: 29px;
+        padding-left: .5%
+    }
+    .passionate-div .heading {
+        font-size: 22px;
+        padding-top: 9%
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 455px
+    }
+    .excellence .lft .subtitle,
+    .excellence-caption p {
+        font-size: 21px
+    }
+    .home-contact .para {
+        font-size: 21px
+    }
+    .home-contact .subpara {
+        font-size: 25px
+    }
+    .home-get-in-touch-btn a {
+        font-size: 22px
+    }
+    .home-contact .subpara {
+        font-size: 23px
+    }
+    .excellence .lft .title,
+    .excellence-caption h2 {
+        letter-spacing: -4px
+    }
+    .our-outlook .our-outlook-div .heading {
+        font-size: 24px
+    }
+    .home-about .home-about-lft .title {
+        letter-spacing: -3px
+    }
+    .nav-list-item-last {
+        margin-right: 20.5%
+    }
+    body.nav-active .menu-icon__line {
+        margin-top: -20%;
+        width: 102%
+    }
+    .menu-icon__line-right {
+        width: 15px;
+        float: right;
+        margin-right: 5%
+    }
+    .home-about .home-about-rft {
+        margin-top: 10%
+    }
+    .safari-div-hidden {
+        display: block!important
+    }
+    .safari-div-visible {
+        display: none!important
+    }
+    .frm-box {
+        font-size: 19px
+    }
+    .contact-para {
+        font-size: 18px;
+        line-height: 20px
+    }
+    .recruitment {
+        padding: 5%;
+        padding-right: 0;
+        padding-left: 3%
+    }
+    .navbar-dark .navbar-brand {
+        color: #fff;
+        z-index: 102;
+        padding-left: 2%
+    }
+}
+
+@media screen and (max-width:1280px) and (max-height:610px) {
+    body.nav-active .menu-icon__line {
+        margin-top: -19%;
+        width: 96%
+    }
+    .img-your-vibe {
+        width: 81%;
+        margin-top: -5%
+    }
+    .agile-your-vibe {
+        padding-bottom: 0
+    }
+    .ambitious {
+        padding-top: 0!important
+    }
+    .agile-para p {
+        font-size: 19px;
+        line-height: 29px
+    }
+    .right-para {
+        padding-right: 3%!important;
+        font-size: 28px;
+        line-height: 32px;
+        padding-top: 0
+    }
+    .safari-div-hidden {
+        display: none!important
+    }
+    .safari-div-visible {
+        display: block!important
+    }
+    .safari-text {
+        bottom: 5%;
+        position: absolute;
+        z-index: 999999;
+        left: 10%!important;
+        color: #000;
+        font-size: 20px;
+        display: block!important
+    }
+    .about-us {
+        padding-bottom: 0
+    }
+    .mac-img {
+        display: block!important
+    }
+    .homeslider-img {
+        display: none!important
+    }
+    .about-title {
+        margin-top: -20%;
+        height: 222px
+    }
+    .slider {
+        margin-bottom: -6%
+    }
+    .slider div {
+        color: #093ff4;
+        height: 58px;
+        margin-bottom: 30px;
+        padding: 0 10px;
+        text-align: left;
+        box-sizing: border-box
+    }
+    .carousel-item {
+        padding-top: 2%;
+        height: 99vh
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 0;
+        right: 16%;
+        width: 34%
+    }
+    .passionate-para {
+        font-size: 18px;
+        margin-left: -27%
+    }
+    .footer-logo {
+        width: 85%
+    }
+    .our-outlook .our-outlook-para {
+        padding-top: 16%;
+        padding-bottom: 15%;
+        padding-left: 15%;
+        padding-right: 16%
+    }
+    .lft {
+        padding-left: .5%;
+        line-height: 20px
+    }
+    .passionate-div {
+        height: 470px
+    }
+    .footer-address {
+        font-size: 14px;
+        line-height: 24px
+    }
+    .menu-icon {
+        top: 7%;
+        right: 4%
+    }
+    .carousel-inner {
+        height: auto
+    }
+    .content {
+        padding-top: 3%;
+        bottom: 11%
+    }
+    .sub-head {
+        font-size: 21px;
+        bottom: 0!important
+    }
+    .home-contact .para {
+        font-size: 20px
+    }
+    .passionate-div .subheading {
+        font-size: 16px
+    }
+    .home-about .home-about-rft {
+        margin-top: 12%;
+        letter-spacing: -1px
+    }
+    .our-outlook .our-outlook-div .heading {
+        font-size: 21px
+    }
+    .footer-address {
+        font-size: 16px;
+        line-height: 24px
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .right-para {
+        font-size: 29px;
+        line-height: 38px
+    }
+    .safari-div-hidden {
+        display: block!important
+    }
+    .safari-div-visible {
+        display: none!important
+    }
+    body.nav-active .menu-icon__line {
+        margin-top: 0;
+        width: 98%;
+        margin-bottom: -1px;
+        margin-left: 34%
+    }
+    body.nav-active .menu-icon__line-left {
+        width: 0%!important
+    }
+    .nav-list-item-last {
+        margin-right: 19.5%
+    }
+    .menu-icon {
+        height: 30px;
+        width: 30px;
+        z-index: 102;
+        right: 50px;
+        top: 40px
+    }
+    .slider-wrapper {
+        font-size: 35px
+    }
+    .slider {
+        margin-bottom: -11%
+    }
+    .sub-head {
+        font-size: 21px;
+        bottom: 18%!important
+    }
+    .content {
+        bottom: 27%
+    }
+    .home-about .home-about-rft {
+        margin-top: 9%
+    }
+    .lft {
+        width: 56%;
+        padding-left: .5%
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .slider-wrapper {
+        font-size: 38px
+    }
+    .right-para {
+        font-size: 23px;
+        line-height: 31px
+    }
+    .recruitment-para {
+        font-size: 19px
+    }
+    .agile-para p {
+        font-size: 17px;
+        line-height: 25px
+    }
+    .about-title {
+        margin-top: -20%;
+        height: 180px
+    }
+    .navbar-dark .navbar-brand {
+        color: #fff;
+        z-index: 102;
+        padding-left: 3%
+    }
+    .sub-head {
+        font-size: 20px
+    }
+    .content {
+        padding-top: 3%;
+        bottom: 28%
+    }
+    .home-about .home-about-lft .top-caption {
+        font-size: 17px;
+        letter-spacing: 1px
+    }
+    .home-about .home-about-lft .title {
+        letter-spacing: -1px;
+        font-size: 45px;
+        line-height: 57px
+    }
+    .excellence .lft .title,
+    .excellence-caption h2 {
+        letter-spacing: -3px;
+        font-size: 52px;
+        line-height: 56px
+    }
+    .excellence .lft .subtitle,
+    .excellence-caption p {
+        font-size: 17px
+    }
+    .home-about-para {
+        font-size: 20px
+    }
+    .home-contact .title {
+        font-size: 39px;
+        line-height: 42px
+    }
+    .home-contact .para {
+        font-size: 18px
+    }
+    .home-contact .subpara {
+        font-size: 20px
+    }
+    .footer-link {
+        font-size: 14px
+    }
+    .social-title {
+        font-size: 14px;
+        padding-top: 6%
+    }
+    .footer-contact {
+        font-size: 12px
+    }
+    .footer-sublink {
+        font-size: 10px;
+        color: #696868
+    }
+    .footer-address {
+        font-size: 11px;
+        padding: 0;
+        padding-top: 9%;
+        line-height: 16px
+    }
+    .home-get-in-touch-btn a {
+        font-size: 16px
+    }
+    .home-contact .title {
+        font-size: 32px;
+        line-height: 32px
+    }
+    .home-contact .subpara {
+        font-size: 17px
+    }
+    .home-contact .para {
+        font-size: 16px
+    }
+    .excellence .lft .title {
+        letter-spacing: -2px;
+        font-size: 45px;
+        line-height: 46px
+    }
+    .our-outlook .our-outlook-heading {
+        font-size: 60px;
+        line-height: 48px
+    }
+    .home-about .home-about-lft .know-more-btn {
+        font-size: 18px
+    }
+    .home-about-para {
+        font-size: 18px
+    }
+    .home-about .home-about-lft .top-caption {
+        font-size: 15px;
+        letter-spacing: 1px
+    }
+    .passionate .passionate-heading {
+        line-height: 47px;
+        font-size: 42px
+    }
+    .lft {
+        font-size: 42px;
+        width: 56%;
+        line-height: 10px
+    }
+    .lft {
+        font-size: 47px;
+        width: 56%;
+        line-height: 20px
+    }
+    .passionate .passionate-heading {
+        line-height: 52px;
+        font-size: 47px
+    }
+    .passionate .passionate-heading {
+        line-height: 52px;
+        font-size: 47px
+    }
+    .passionate-para {
+        font-size: 15px
+    }
+    .passionate-div .heading {
+        font-size: 17px;
+        padding-top: 6%
+    }
+    .passionate-div .subheading {
+        font-size: 13px
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 380px
+    }
+    .our-outlook .our-outlook-heading {
+        font-size: 62px;
+        line-height: 60px
+    }
+    .our-outlook .our-outlook-para {
+        font-size: 15px
+    }
+    .our-outlook .our-outlook-div .outlookpara {
+        font-size: 12px
+    }
+    .our-outlook .our-outlook-div .heading {
+        font-size: 19px;
+        margin-bottom: 0
+    }
+    .contact {
+        padding-top: 12%
+    }
+    .contact-title {
+        font-size: 38px
+    }
+    .contact-subtitle {
+        font-size: 20px;
+        padding-top: 1%
+    }
+    .btn-smt {
+        font-size: 13px;
+        margin-right: 3%;
+        padding: 1.5%;
+        padding-left: 9%;
+        padding-right: 9%
+    }
+    .frm-box {
+        font-size: 15px
+    }
+    .contactimg-footer {
+        padding: 20%;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+    .contact-para {
+        font-size: 15px;
+        line-height: 19px
+    }
+}
+
+@media screen and (max-width:800px) {
+    .right-para {
+        font-size: 23px;
+        line-height: 31px;
+        padding-top: 0!important
+    }
+    .sub-head {
+        font-size: 20px;
+        bottom: 57%!important
+    }
+    .nav__list-item {
+        text-align: left;
+        width: 400px;
+        font-size: 30px;
+        margin-right: 0
+    }
+    .navbar-dark .navbar-brand {
+        padding-top: 2%
+    }
+    .nav-list-item-last {
+        margin-right: 25.3%!important
+    }
+    body.nav-active .nav__list-item:nth-child(9) {
+        transition-delay: 1.4s;
+        margin-top: 3%
+    }
+    .slider {
+        margin-bottom: -9%
+    }
+    .carousel-inner {
+        height: 42vh
+    }
+    .carousel-item {
+        padding-top: 11%
+    }
+    .content {
+        padding-top: 3%;
+        bottom: 62%
+    }
+    .home-about-para {
+        font-size: 17px
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 0;
+        right: 24%;
+        width: 36%;
+        margin-top: 9%
+    }
+    .passionate .passionate-heading {
+        line-height: 52px;
+        font-size: 44px;
+        letter-spacing: -1px
+    }
+    .lft {
+        font-size: 44px;
+        width: 70%;
+        line-height: 16px
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 330px;
+        margin-bottom: 5%
+    }
+    .excellence .lft .subtitle,
+    .excellence-caption p {
+        font-size: 19px;
+        padding-right: 13%;
+        line-height: 20px
+    }
+    .excellence .lft .title,
+    .excellence-caption h2 {
+        margin-bottom: 8%
+    }
+    .recruitment-para {
+        font-size: 17px
+    }
+    .excellence-bgm {
+        padding-left: 6%
+    }
+    .menu-icon {
+        right: 34px
+    }
+    .recruitment {
+        padding: 5%;
+        padding-right: 3%
+    }
+    .home-contact .para {
+        font-size: 14px
+    }
+    .contact-title {
+        font-size: 33px
+    }
+    .contact-subtitle {
+        font-size: 18px;
+        padding-top: 2%
+    }
+    .address {
+        padding-left: 7%;
+        padding-right: 7%
+    }
+    .contact {
+        padding-top: 15%
+    }
+    .contact-para {
+        font-size: 12px;
+        line-height: 15px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .excellence .lft .subtitle,
+    .excellence-caption p {
+        padding-right: 0
+    }
+    .slider {
+        margin-bottom: -14%
+    }
+    .about-title {
+        margin-top: -20%;
+        height: 150px
+    }
+    .about-title p {
+        font-size: 21px;
+        padding-top: 75%
+    }
+    .passionate .passionate-heading {
+        line-height: 42px
+    }
+    .lft {
+        line-height: 0;
+        padding-left: 1.5%
+    }
+    .nav-list-item-last {
+        margin-right: 22.2%!important
+    }
+    body.nav-active .nav__content {
+        display: block;
+        position: fixed;
+        top: 53%;
+        width: 100%;
+        left: 14%
+    }
+    .home-about-para {
+        font-size: 16px
+    }
+    .slider-wrapper {
+        font-size: 32px
+    }
+    .sub-head {
+        bottom: 50%!important
+    }
+    .carousel-inner {
+        height: 51vh
+    }
+    .content {
+        padding-top: 3%;
+        bottom: 56%
+    }
+    .excellence-bgm {
+        padding-left: 3%
+    }
+    .mountains {
+        font-size: 59px;
+        padding-top: 0
+    }
+    .recruitment-para {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width:480px) {
+	.slider-right-icon {
+    padding-left: 2%;
+    width: 16%;
+    padding-right: 8%;
+    padding-bottom: 0%;
+    }
+    .img-your-vibe {
+        width: 81%;
+        margin-top: 7%
+    }
+	 .agile-para p {
+        font-size: 19px;
+        line-height: 27px
+    }
+    .home-about-para {
+        font-size: 13px;
+        padding: 0;
+        padding-right: 0
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 0;
+        right: 6%;
+        width: 47%;
+        margin-top: 7%
+    }
+    .home-about .home-about-lft {
+        padding: 10%;
+        background-size: 70% 100%
+    }
+    .lft {
+        font-size: 27px;
+        width: 58%!important;
+        padding-left: 2.5%
+    }
+    .home-about .home-about-lft .know-more-btn {
+        font-size: 13px;
+        padding: 3%;
+        padding-left: 7%;
+        padding-right: 7%
+    }
+    .hiddenmob {
+        display: none
+    }
+    .passionate-para {
+        font-size: 14px;
+        padding-right: 0
+    }
+    .slider-wrapper {
+        font-size: 28px
+    }
+    .slider {
+        margin-bottom: -3%
+    }
+    .slider-text3 {
+        padding-top: 0;
+        margin-top: -1%
+    }
+    .slider-text2 {
+        margin-top: -1%
+    }
+    .sub-head {
+        font-size: 15px;
+        left: 21%;
+        top: 78%
+    }
+    .our-outlook .our-outlook-para {
+        font-size: 15px;
+        padding-top: 0;
+        padding-bottom: 3%;
+        padding-left: 0;
+        padding-right: 0
+    }
+    .passionate-div .subheading {
+        font-size: 14px
+    }
+    .passionate-div .subheading {
+        font-size: 14px;
+        padding-top: 0
+    }
+    .our-outlook .our-outlook-div .outlookpara {
+        font-size: 14px;
+        width: 100%
+    }
+    .home-contact-img {
+        padding: 10%;
+        padding-top: 6%;
+        margin-top: -6%
+    }
+    .home-contact-img {
+        padding: 10%;
+        padding-top: 6%;
+        margin-top: 0;
+        padding-left: 8%;
+        padding-right: 9%;
+        padding-bottom: 6%
+    }
+    .carousel-inner {
+        height: 90vh
+    }
+    .content {
+        padding-top: 3%;
+        bottom: 22%
+    }
+    .about-intro {
+        height: 42vh
+    }
+    .about-title {
+        margin-top: -20%;
+        height: 127px;
+        margin-left: -4%;
+        width: 34%
+    }
+    .about-title p {
+        font-size: 22px;
+        padding-top: 50%
+    }
+    .computer-img {
+        position: absolute;
+        height: 83%;
+        right: 2%;
+        top: 0;
+        width: 32%
+    }
+    .choose-us-subtitle {
+        font-size: 23px;
+        line-height: 23px;
+        margin-bottom: 2px
+    }
+    .why-choose-us {
+        padding: 7%;
+        padding-bottom: 0
+    }
+    .mission-title {
+        padding-top: 0;
+        margin-bottom: 0
+    }
+    .mission {
+        padding-top: 4%;
+        padding-bottom: 0
+    }
+    .slider div {
+        padding-top: 0
+    }
+    .choose-us-para-topspace {
+        padding-top: 19%;
+        margin-bottom: 0
+    }
+    .green-patch {
+        margin-left: 0
+    }
+    .thinkers-para {
+        font-size: 15px;
+        padding-right: 3%
+    }
+    .thinkers {
+        padding: 3%;
+        padding-bottom: 0
+    }
+    .recruitment {
+        padding: 5%;
+        padding-right: 0;
+        padding-top: 0
+    }
+    .employee-speaks-para {
+        font-size: 15px;
+        letter-spacing: -1px;
+        padding: 4%;
+        padding-left: 0;
+        line-height: 24px;
+        padding-top: 9%;
+        padding-right: 0
+    }
+    .opportunities .opportunities-rft {
+        background-color: #5d40d5;
+        padding: 10%;
+        padding-bottom: 3%;
+        padding-right: 5%
+    }
+    .opportunities .opportunities-rft ul li {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        padding-left: 0
+    }
+    .our-outlook {
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+    .slider-wrapper {
+        font-size: 31px
+    }
+    .about-title p {
+        font-size: 27px;
+        padding-top: 64%
+    }
+    .about-title {
+        margin-top: -15%;
+        height: 150px;
+        margin-left: 0;
+        width: 28%
+    }
+    .menu-icon {
+        right: 24px;
+        top: 28px
+    }
+    .nav__list-item {
+        font-size: 18px
+    }
+    .animated {
+        padding-top: 0!important
+    }
+    .mySlides img {
+        margin-top: 48%
+    }
+    .modal-content {
+        width: 100%!important
+    }
+    .nav-list-item-last {
+        margin-right: 8.2%!important
+    }
+    body.nav-active .nav__content {
+        display: block;
+        position: fixed;
+        top: 53%;
+        width: 100%;
+        left: 25%
+    }
+    .slider {
+        height: 50px;
+        padding-left: 6px;
+        overflow: hidden;
+        margin-bottom: -5%
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 0;
+        right: 4%;
+        width: 45%;
+        margin-top: 13%
+    }
+    .passionate .passionate-heading {
+        line-height: 33px;
+        font-size: 31px;
+        letter-spacing: -1px;
+        margin-bottom: 2%
+    }
+    .home-about-para {
+        font-size: 14px
+    }
+    .home-about .home-about-lft .title {
+        letter-spacing: -1px;
+        font-size: 32px;
+        line-height: 39px
+    }
+    .home-about .home-about-lft .know-more-btn {
+        font-size: 16px
+    }
+    .content {
+        padding-top: 3%;
+        bottom: 63%
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 450px;
+        margin-bottom: 5%
+    }
+    .sub-head {
+        top: 37%;
+        font-size: 17px;
+        left: 27%
+    }
+    .carousel-inner {
+        height: 41vh
+    }
+    .carousel-item {
+        padding-top: 15%
+    }
+    .lft {
+        font-size: 31px;
+        width: 50%!important;
+        line-height: 13px;
+        float: left;
+        padding-left: 2%
+    }
+    .passionate-para {
+        font-size: 14px;
+        padding-bottom: 0
+    }
+    .rft {
+        width: 45%;
+        float: left
+    }
+    .rft img {
+        width: 85%
+    }
+    .our-outlook .our-outlook-heading {
+        font-size: 44px;
+        line-height: 39px
+    }
+    .our-outlook .our-outlook-para {
+        font-size: 19px;
+        padding-top: 0;
+        padding-bottom: 3%;
+        padding-left: 0;
+        padding-right: 16%
+    }
+    .our-outlook .our-outlook-div {
+        margin-left: 0;
+        border-bottom: 1px solid #dedede;
+        margin-bottom: 5%
+    }
+    .our-outlook .our-outlook-div .outlookpara {
+        font-size: 14px;
+        width: 100%
+    }
+    .btm-border {
+        border-bottom: 0 solid #000!important
+    }
+    .our-outlook .our-outlook-div img {
+        margin-left: 0;
+        padding: 0;
+        width: 17%;
+        padding-bottom: 3%
+    }
+    .left-space {
+        margin-left: 0
+    }
+    .orance-line {
+        width: 5%
+    }
+    .mission {
+        padding-top: 3%
+    }
+    .excellence .lft {
+        padding: 10%;
+        padding-right: 15%;
+        width: 100%!important
+    }
+    .social-logo {
+        float: left;
+        width: 5%;
+        margin-right: 1%
+    }
+    .social-title {
+        font-size: 14px;
+        padding-top: 6%;
+        margin-bottom: 0
+    }
+    .footer-contact {
+        font-size: 12px;
+        padding-top: 0;
+        padding-left: 0;
+        float: right;
+        margin-right: 7%;
+        margin-top: -10%
+    }
+    .excellence .lft .title,
+    .excellence-caption h2 {
+        letter-spacing: -2px;
+        font-size: 38px;
+        line-height: 36px;
+        margin-bottom: 4%
+    }
+    .excellence .rft {
+        margin-top: 0;
+        z-index: 1;
+        padding-left: 10%;
+        max-width: 100%!important
+    }
+    .excellence-bgm {
+        margin-left: -3%;
+        padding-left: 7%
+    }
+    .logos img {
+        width: 50%
+    }
+    .bottom-logo {
+        padding-top: 0
+    }
+    .dot-net {
+        margin-top: 10%
+    }
+    .logos {
+        padding-bottom: 10%
+    }
+    .agile-para {
+        margin-bottom: 10%;
+        margin-top: .5%
+    }
+    .img-line {
+        z-index: 2
+    }
+    .img-line01 {
+        width: 6%!important
+    }
+    .home-contact {
+        padding: 1%;
+        padding-top: 0;
+        margin-top: -6%
+    }
+    .home-contact-rft {
+        padding-top: 5%;
+        padding-left: 6%
+    }
+    .ash-logo-footer {
+        padding: 47%;
+        padding-top: 0;
+        padding-bottom: 4%;
+        padding-left: 0
+    }
+    .footer-link02 {
+        margin-left: -19%;
+        margin-top: 4%
+    }
+    .footer-mrg {
+        margin-top: -13%;
+        padding-left: 6%
+    }
+    .footer-nav-topsp {
+        padding-top: 2%
+    }
+    .social-btm {
+        margin-top: -7%;
+        margin-left: 2%
+    }
+    .contactimg-footer {
+        padding: 35%;
+        padding-top: 10%;
+        padding-bottom: 0
+    }
+    .contact-form {
+        padding-left: 9%
+    }
+}
+
+@media screen and (max-width:414px) {
+    .agile-para {
+        padding: 5%
+    }
+    .agile-para p {
+        font-size: 15px;
+        line-height: 25px
+    }
+    .our-outlook .our-outlook-para {
+        font-size: 16px;
+        padding-top: 0;
+        padding-bottom: 3%;
+        padding-left: 0;
+        padding-right: 0
+    }
+    .our-outlook .our-outlook-div .outlookpara {
+        font-size: 15px;
+        width: 100%
+    }
+    .slider-wrapper {
+        font-size: 28px
+    }
+    .sub-head {
+        top: 36%;
+        font-size: 17px;
+        left: 22%
+    }
+    .menu-icon__line-right {
+        width: 15px;
+        margin-right: 1%
+    }
+    .nav-list-item-last {
+        margin-right: 1.2%!important
+    }
+    .about-title p {
+        font-size: 24px;
+        padding-top: 77%
+    }
+    .about-title {
+        margin-top: -20%;
+        height: 150px;
+        margin-left: -4%;
+        width: 28%
+    }
+    .slider {
+        height: 50px;
+        padding-left: 4px;
+        overflow: hidden;
+        margin-bottom: -7%
+    }
+    .home-about .home-about-lft .top-caption {
+        font-size: 13px;
+        letter-spacing: 1px
+    }
+    .home-about .home-about-lft .know-more-btn {
+        font-size: 13px
+    }
+    .home-about-para {
+        font-size: 13px
+    }
+    .lft {
+        font-size: 31px;
+        width: 59%!important
+    }
+    .rft {
+        width: 36%
+    }
+    .passionate-div {
+        height: 408px
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 395px;
+        margin-bottom: 5%
+    }
+    .excellence .lft .title,
+    .excellence-caption h2 {
+        margin-bottom: 9%
+    }
+}
+
+@media screen and (max-width:412px) {
+    .our-outlook .our-outlook-para {
+        font-size: 16px;
+        padding-top: 0;
+        padding-bottom: 3%;
+        padding-left: 0;
+        padding-right: 0
+    }
+    .about-title {
+        margin-top: -12%;
+        height: 120px;
+        margin-left: -4%;
+        width: 30%
+    }
+    .about-title p {
+        font-size: 24px;
+        padding-top: 45%
+    }
+    .mySlides img {
+        margin-top: 34%
+    }
+}
+
+@media screen and (max-width:384px) {
+    .home-about-para {
+        font-size: 12px
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 0;
+        right: 3%;
+        width: 46%;
+        margin-top: 7%
+    }
+    .mySlides img {
+        margin-top: 38%
+    }
+    .about-title p {
+        font-size: 22px;
+        padding-top: 52%
+    }
+    .excellence .lft .subtitle,
+    .excellence-caption p {
+        padding-right: 0;
+        line-height: 20px
+    }
+    .nav-list-item-last {
+        margin-right: -4.8%!important
+    }
+    .lft {
+        font-size: 31px;
+        width: 64%!important
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 375px;
+        margin-bottom: 5%
+    }
+    .footer-link {
+        font-size: 11px
+    }
+    .social-title {
+        font-size: 11px
+    }
+/*
+    .footer-contact {
+        font-size: 10px
+    }
+*/
+    .home-about .home-about-lft .top-caption {
+        font-size: 10px;
+        letter-spacing: 1px
+    }
+    .home-about .home-about-lft .title {
+        letter-spacing: -1px;
+        font-size: 26px;
+        line-height: 29px
+    }
+    .home-about-rft {
+        padding: 2%;
+        right: 3%;
+        width: 50%;
+        margin-top: 7%
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 0;
+        right: 3%;
+        width: 49%;
+        margin-top: 7%
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 0;
+        right: 3%;
+        width: 49%;
+        margin-top: 1%
+    }
+    .passionate .passionate-heading {
+        line-height: 26px;
+        font-size: 27px
+    }
+    .lft {
+        font-size: 27px;
+        width: 54%!important;
+        padding-left: 2%
+    }
+    .home-about .home-about-lft {
+        padding: 10%
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 2%;
+        right: 5%;
+        width: 49%;
+        margin-top: 12%
+    }
+    .frm-box {
+        width: 102%
+    }
+}
+
+@media screen and (max-width:375px) and (max-height:812px) {
+    .right-para {
+        font-size: 22px;
+        line-height: 27px;
+        padding-top: 0!important
+    }
+    .home-about-para {
+        font-size: 13px;
+        padding: 2%;
+        padding-right: 4%
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 0;
+        right: 6%;
+        width: 47%;
+        margin-top: 7%
+    }
+    .home-about .home-about-lft {
+        padding: 10%;
+        background-size: 70% 100%
+    }
+    .lft {
+        font-size: 27px;
+        width: 56%!important;
+        padding-left: 2.5%
+    }
+    .home-about .home-about-lft .know-more-btn {
+        font-size: 13px;
+        padding: 3%;
+        padding-left: 7%;
+        padding-right: 7%
+    }
+    .hiddenmob {
+        display: none
+    }
+    .passionate-para {
+        font-size: 14px;
+        padding-right: 0
+    }
+    .slider-wrapper {
+        font-size: 28px
+    }
+    .slider {
+        margin-bottom: -3%
+    }
+    .slider-text3 {
+        padding-top: 0;
+        margin-top: -1%
+    }
+    .slider-text2 {
+        margin-top: -1%
+    }
+    .sub-head {
+        font-size: 15px;
+        left: 21%;
+        top: 78%
+    }
+    .our-outlook .our-outlook-para {
+        font-size: 15px;
+        padding-top: 0;
+        padding-bottom: 3%;
+        padding-left: 0;
+        padding-right: 0
+    }
+    .passionate-div .subheading {
+        font-size: 14px
+    }
+    .passionate-div .subheading {
+        font-size: 14px;
+        padding-top: 0
+    }
+    .our-outlook .our-outlook-div .outlookpara {
+        font-size: 14px;
+        width: 100%
+    }
+    .home-contact-img {
+        padding: 10%;
+        padding-top: 6%;
+        margin-top: -6%
+    }
+    .home-contact-img {
+        padding: 10%;
+        padding-top: 6%;
+        margin-top: 0;
+        padding-left: 8%;
+        padding-right: 9%;
+        padding-bottom: 6%
+    }
+    .carousel-inner {
+        height: 90vh
+    }
+    .content {
+        padding-top: 3%;
+        bottom: 22%
+    }
+    .about-intro {
+        height: 40vh
+    }
+    .about-title {
+        margin-top: -20%;
+        height: 127px;
+        margin-left: -4%;
+        width: 34%
+    }
+    .about-title p {
+        font-size: 22px;
+        padding-top: 50%
+    }
+    .computer-img {
+        position: absolute;
+        height: 83%;
+        right: 2%;
+        top: 0;
+        width: 32%
+    }
+    .choose-us-subtitle {
+        font-size: 23px;
+        line-height: 23px;
+        margin-bottom: 2px
+    }
+    .why-choose-us {
+        padding: 7%;
+        padding-bottom: 0
+    }
+    .mission-title {
+        padding-top: 0;
+        margin-bottom: 0
+    }
+    .mission {
+        padding-top: 4%;
+        padding-bottom: 2%
+    }
+    .slider div {
+        padding-top: 0
+    }
+    .choose-us-para-topspace {
+        padding-top: 19%;
+        margin-bottom: 0
+    }
+    .green-patch {
+        margin-left: 0
+    }
+    .thinkers-para {
+        font-size: 15px;
+        padding-right: 3%
+    }
+    .thinkers {
+        padding: 3%;
+        padding-bottom: 0
+    }
+    .recruitment {
+        padding: 5%;
+        padding-right: 0;
+        padding-top: 0
+    }
+    .employee-speaks-para {
+        font-size: 15px;
+        letter-spacing: -1px;
+        padding: 4%;
+        padding-left: 0;
+        line-height: 24px;
+        padding-top: 9%;
+        padding-right: 0
+    }
+    .opportunities .opportunities-rft {
+        background-color: #5d40d5;
+        padding: 10%;
+        padding-bottom: 3%;
+        padding-right: 5%
+    }
+    .opportunities .opportunities-rft ul li {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        padding-left: 0
+    }
+}
+
+@media screen and (max-width:375px) and (max-height:667px) {
+.about-intro {
+    height: 49vh;
+}
+	.content {
+    padding-top: 3%;
+    bottom: 59%;
+   }
+    .nav-list-item-last {
+        margin-right: -7.8%!important
+    }
+    .nav-list-item-last {
+        margin-right: -11.8%!important
+    }
+    .lft {
+        font-size: 27px;
+        width: 58%!important;
+        padding-left: 2.5%
+    }
+    .about-title p {
+        font-size: 21px;
+        padding-top: 51%
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 370px;
+        margin-bottom: 5%
+    }
+    .home-contact .title {
+        font-size: 26px;
+        line-height: 27px
+    }
+    .excellence .lft .title,
+    .excellence-caption h2 {
+        margin-bottom: 0;
+        font-size: 29px
+    }
+    .excellence .lft .subtitle,
+    .excellence-caption p {
+        padding-right: 0;
+        font-size: 14px
+    }
+    .our-outlook .our-outlook-heading {
+        font-size: 39px;
+        line-height: 34px
+    }
+    .our-outlook .our-outlook-para {
+        font-size: 15px
+    }
+    .passionate-div .heading {
+        font-size: 15px;
+        padding-top: 6%
+    }
+}
+
+@media screen and (max-width:360px) {
+    .navbar-dark .navbar-brand {
+        padding-left: 2%;
+        color: #fff;
+        z-index: 102;
+        width: 45%!important
+    }
+    .menu-icon {
+        right: 23px;
+        top: 25px
+    }
+    .home-about .home-about-rft {
+        margin-top: 8.2%
+    }
+    .home-about-para {
+        font-size: 12px
+    }
+    .our-outlook .our-outlook-para {
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width:320px) {
+    .about-title p {
+        font-size: 18px;
+        padding-top: 48%
+    }
+    .passionate-para {
+        margin-left: 0
+    }
+    .passionate-div .subheading {
+        font-size: 13px;
+
+        padding-top: 0
+    }
+    .passionate-div .heading {
+        font-size: 17px;
+        padding-top: 6%;
+        line-height: 18px
+    }
+    .passionate-div {
+        padding: 6%;
+        height: 346px;
+        margin-bottom: 5%
+    }
+    .home-about .home-about-lft .title {
+        letter-spacing: -1px;
+        font-size: 23px;
+        line-height: 29px
+    }
+    .home-about .home-about-lft .top-caption {
+        font-size: 9px;
+        letter-spacing: 1px
+    }
+    .slider-wrapper {
+        font-size: 24px
+    }
+    .slider {
+        margin-bottom: -6%
+    }
+    .home-about-para {
+        font-size: 13px
+    }
+    .home-about .home-about-rft {
+        padding: 2%;
+        padding-right: 0;
+        right: 4%;
+        width: 50%;
+        margin-top: 5.4%
+    }
+    .about-title {
+        margin-top: -20%;
+        height: 106px;
+        margin-left: -5%;
+        width: 32%
+    }
+/*
+    .footer-contact {
+        font-size: 9px;
+        padding-top: 4%;
+        padding-left: 0;
+        margin-right: 1%;
+        margin-top: -10%
+    }
+*/
+    .footer-sublink {
+        font-size: 9px;
+        color: #696868
+    }
+    .nav-list-item-last {
+        margin-right: -25.8%!important
+    }
+    .nav__list-item p {
+        font-size: 12px
+    }
+    .navbar {
+        padding: 2%;
+        padding-left: 6%
+    }
+    .menu-icon {
+        height: 30px;
+        width: 30px;
+        z-index: 102;
+        right: 22px;
+        top: 20px
+    }
+    .footer-link02 {
+        margin-left: -25%;
+        margin-top: -7%
+    }
+/*
+    .social-title {
+        font-size: 10px;
+        padding-top: 0;
+        margin-bottom: 3%;
+        margin-top: -8%
+    }
+*/
+    .footer-link {
+        font-size: 10px
+    }
+    .footer-nav-topsp {
+        padding-top: 0
+    }
+    .lft {
+        padding-left: 3.2%;
+        width: 64%!important
+    }
+    .rft {
+        width: 26%;
+        margin-top: -1%
+    }
+    .excellence .lft .subtitle,
+    .excellence-caption p {
+        padding-right: 0;
+        font-size: 14px;
+        line-height: 14px
+    }
+    .excellence .lft .title,
+    .excellence-caption p {
+        line-height: 30px
+    }
+/*
+    .social-btm {
+        margin-top: -5%;
+        margin-left: 1%
+    }
+*/
+    .slider div {
+        color: #093ff4;
+        height: 47px;
+        margin-bottom: 5px;
+        padding: 0 2px;
+        text-align: left;
+        box-sizing: border-box
+    }
+    .sub-head {
+        top: 79%;
+        font-size: 15px;
+        left: 15%
+    }
+    .contact-subtitle {
+        font-size: 17px;
+        padding-top: 2%
+    }
+    .frm-box {
+        font-size: 12px
+    }
+    .contact-title {
+        margin-bottom: -10px
+    }
+    .contact-para {
+        font-size: 11px
+    }
+}

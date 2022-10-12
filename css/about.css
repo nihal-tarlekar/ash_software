@@ -1,0 +1,905 @@
+@charset "utf-8";
+.about-intro {
+    background-image: url(../images/about/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh
+}
+
+.about-caption {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    z-index: 100;
+    margin-top: 30%;
+    left: 42%;
+}
+
+.about-caption .encoding-title {
+    font-family: 'Maven Pro';
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -4px;
+    margin-bottom: 0
+}
+
+.about-caption .encoding-para {
+    font-family: 'Maven Pro';
+    font-weight: 500;
+    font-size: 26px
+}
+
+.about-us {
+    background-image: url(../images/about/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 5%
+}
+
+.about-title {
+    background-image: url(../images/about/yellow-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: -20%;
+    height: 250px;
+    margin-left: 30%;
+    color: #fff
+}
+
+.about-left-space {
+    margin-left: 10%
+}
+
+.about-title p {
+    color: #fff;
+    font-family: 'Maven Pro';
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+    padding-left: 3%;
+    padding-top: 80%
+}
+
+.about-para {
+    font-family: 'Maven Pro';
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    padding: 15%;
+    padding-right: 0
+}
+
+.choose-us-subtitle {
+    font-family: 'Maven Pro';
+    font-weight: 500;
+    font-size: 30px;
+    color: #000
+}
+
+.choose-us-para {
+    font-family: 'Maven Pro';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000
+}
+
+.why-choose-us {
+    padding: 7%
+}
+
+.why-choose-title {
+    font-family: 'Maven Pro';
+    font-weight: 900;
+    color: #000;
+    font-size: 58px;
+    line-height: 48px
+}
+
+.why-choose-img {
+    display: block;
+    margin-bottom: 20%
+}
+
+.mission {
+    background: url(../images/about/mission.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 7%;
+    padding-top: 10%
+}
+
+.mission-title {
+    color: #fff;
+    font-family: 'Maven Pro';
+    font-weight: 700;
+    font-size: 25px
+}
+
+.mission-para {
+    font-family: 'Maven Pro';
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    padding-right: 16%
+}
+
+.computer-img {
+    position: absolute
+}
+
+.why-choose-img02 {
+    display: block;
+    margin-bottom: -10%
+}
+.svg-inline--fa.fa-plus{
+	color: #fff !important;
+	margin-left: 0px !important;
+}
+.btn-primary {
+    border-radius: 0px;
+    position: absolute;
+    top: 87.5%;
+    right: 15%;
+    padding: 14px 15px;
+}
+.gallery{
+	margin-bottom: 5%;
+}
+.gallery-caption p {
+    font-family: 'Maven Pro';
+	position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-left: 35px;
+    margin-top: 1%;
+}
+.gallery-border{
+	border: 1px solid #093FF4;
+	width: 50%;
+	position: absolute;
+	top: 96.5%;
+    left: 12%;
+}
+.blue-rect{
+	position: absolute;
+	width: 48%;
+    left: 11%;
+}
+@media screen and (max-width:2560px) {
+    .about-caption .encoding-title {
+        font-size: 143px
+    }
+    .about-caption .encoding-para {
+        font-family: 'Maven Pro';
+        font-weight: 500;
+        font-size: 49px;
+        margin-top: -2%
+    }
+    .about-title p {
+        color: #fff;
+        font-family: 'Maven Pro';
+        font-weight: 700;
+        font-size: 78px;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 82%
+    }
+    .about-caption {
+        color: #fff;
+        z-index: 100;
+        margin-top: 25%;
+        left: 25%
+    }
+    .about-title {
+        margin-top: -20%;
+        height: 450px;
+        margin-left: 30%;
+        width: 58%
+    }
+    .about-para {
+        font-size: 41px;
+        padding: 10%;
+        margin-bottom: 0
+    }
+    .why-choose-title {
+        font-size: 130px;
+        line-height: 100px
+    }
+    .choose-us-subtitle {
+        font-family: 'Maven Pro';
+        font-weight: 500;
+        font-size: 70px;
+        color: #000;
+        line-height: 75px
+    }
+    .choose-us-para {
+        font-size: 32px
+    }
+    .mission-title {
+        font-size: 50px
+    }
+    .mission-para {
+        font-size: 26px
+    }
+    .btn.btn-dark {
+        font-size: 25px!important;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        width: 18%
+    }
+    .slider-left-icon {
+        margin-right: 11%
+    }
+    .btn.btn-dark1 {
+        padding-top: 2%;
+        font-size: 25px!important;
+        padding-bottom: 2%;
+        width: 18%;
+        padding-right: 0;
+        margin-left: 2%;
+        padding: 0;
+        padding-left: 2%!important
+    }
+    .slider-right-icon {
+        padding-left: 0;
+        width: 11%;
+        padding-right: 0;
+        padding-bottom: 3%;
+        margin-left: 47%
+    }
+}
+
+@media screen and (max-width:1920px) and (max-height:1280px) {
+    .about-caption {
+        margin-top: 29%;
+        left: 22%
+    }
+    .about-caption .encoding-title {
+        font-size: 115px
+    }
+    .about-title p {
+        font-size: 60px;
+        padding-left: 0;
+        padding-top: 76%
+    }
+    .slider-right-icon {
+        margin-left: 39%
+    }
+    .about-para {
+        font-size: 38px;
+        padding: 10%;
+        margin-bottom: 0
+    }
+    .why-choose-title {
+        font-size: 120px;
+        line-height: 100px
+    }
+    .choose-us-subtitle {
+        font-size: 60px;
+        line-height: 60px
+    }
+}
+
+@media screen and (max-width:1920px) and (max-height:1080px) {
+    .about-caption .encoding-title {
+        font-size: 90px
+    }
+    .about-caption .encoding-para {
+        font-size: 38px;
+        margin-top: -2%
+    }
+    .about-caption {
+        margin-top: 24%;
+        left: 27%
+    }
+    .about-title p {
+        font-size: 60px;
+        padding-left: 0;
+        padding-top: 79%;
+        line-height: 74px
+    }
+    .about-para {
+        font-size: 30px;
+        padding: 10%;
+        margin-bottom: 0
+    }
+    .why-choose-title {
+        font-size: 110px;
+        line-height: 96px
+    }
+    .choose-us-subtitle {
+        font-size: 57px;
+        color: #000;
+        line-height: 65px
+    }
+    .btn.btn-dark1 {
+        font-size: 20px!important
+    }
+    .btn.btn-dark {
+        font-size: 20px!important
+    }
+    .about-title p {
+        font-size: 51px;
+        padding-top: 72%;
+        line-height: 74px
+    }
+    .computer-img {
+        width: 45%
+    }
+}
+@media screen and (max-height: 1824px) and (max-width: 1736px)
+{
+.btn.btn-dark {
+    font-size: 22px!important;
+	}
+.btn.btn-dark1 {
+    padding-top: 2%;
+    font-size: 22px!important;
+	    width: 19%
+	}
+.about-intro {
+	  height: 62vh;
+}
+.about-caption .encoding-title {
+    font-size: 125px;
+}
+.about-caption {
+    margin-top: 29%;
+    left: 17%;
+}
+.about-title p {
+    font-size: 51px;
+    padding-left: 0;
+    padding-top: 81%;
+}
+}
+@media screen and (max-width:1600px) {
+	.about-intro {
+    height: 92vh;
+    }
+	.about-caption .encoding-title {
+    font-size: 88px; 
+    }
+    .about-caption .encoding-para {
+    font-size: 32px;
+    margin-top: -2%;
+    }
+    .about-para {
+        font-size: 24px;
+        padding: 10%;
+        margin-bottom: 0;
+        padding-left: 20%
+    }
+    .why-choose-title {
+        font-size: 70px;
+        line-height: 68px
+    }
+    .choose-us-subtitle {
+        font-size: 44px;
+        line-height: 48px
+    }
+    .choose-us-para {
+        font-size: 22px
+    }
+    .mission-title {
+        font-size: 37px;
+        padding-top: 15%
+    }
+    .mission-para {
+        font-size: 22px
+    }
+    .btn.btn-dark {
+        font-size: 14px!important
+    }
+    .btn.btn-dark1 {
+        font-size: 14px!important
+    }
+    .slider-right-icon {
+        padding-left: 0;
+        width: 11%;
+        padding-right: 0;
+        padding-bottom: 3%;
+        margin-left: 42%
+    }
+    .about-caption {
+        margin-top: 27%;
+        left: 24%
+    }
+    .mission-para {
+        font-size: 20px
+    }
+    .about-title p {
+        font-size: 46px;
+        padding-top: 90%;
+        line-height: 74px
+    }
+    .slider div {
+        padding-top: 1.5%
+    }
+    .computer-img {
+        width: 40%
+    }
+    .slider-buttons {
+        margin-left: 35%;
+        margin-top: 3%;
+        margin-bottom: 5%
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .choose-us-para {
+        font-size: 20px
+    }
+    .carousel-inner {
+        margin-top: 2%
+    }
+    .about-title p {
+        font-size: 44px;
+        padding-top: 100%;
+        line-height: 74px
+    }
+    .mission-title {
+        font-size: 34px;
+        padding-top: 22%
+    }
+    .computer-img {
+        width: 45%
+    }
+    .choose-us-subtitle {
+        font-size: 40px;
+        line-height: 48px
+    }
+    .about-caption {
+        margin-top: 22%;
+        left: 21%
+    }
+}
+
+@media screen and (max-width:1280px) and (max-height:1024px) {
+    .about-caption .encoding-title {
+        font-size: 76px
+    }
+	.about-caption {
+		margin-top: 26%;
+		left: 24%;
+	}
+	.modal-header .close {
+    padding: 0.7rem 1rem;
+    margin: 0.99rem -0.8rem 0rem auto;
+    }
+	.move {
+    font-size: 79px!important;
+    margin-top: -6%;
+    }
+    .about-para {
+        font-size: 20px
+    }
+    .about-title p {
+        font-size: 38px;
+        padding-top: 90%
+    }
+    .choose-us-subtitle {
+        font-size: 35px;
+        line-height: 40px
+    }
+    .why-choose-title {
+        font-size: 60px;
+        line-height: 59px
+    }
+    .mission-para {
+        font-size: 19px;
+        line-height: 21px
+    }
+    .btn.btn-dark {
+        font-size: 12px!important
+    }
+    .btn.btn-dark1 {
+        font-size: 12px!important
+    }
+}
+
+@media screen and (max-width:1280px) and (max-height:610px) {
+    .about-caption {
+        margin-top: 19%;
+        left: 27%
+    }
+    .about-us {
+        padding-bottom: 0
+    }
+    .about-title {
+        height: 245px
+    }
+    .about-title p {
+        font-size: 38px;
+        padding-top: 80%
+    }
+    .about-caption .encoding-title {
+        font-size: 67px
+    }
+    .about-caption .encoding-para {
+        font-size: 28px;
+        margin-top: -2%
+    }
+    .about-para {
+        font-size: 19px;
+        padding: 10%;
+        margin-bottom: 0;
+        padding-left: 8%
+    }
+    .choose-us-para {
+        font-size: 18px
+    }
+    .computer-img {
+        position: absolute;
+        height: 90%
+    }
+    .mission-title {
+        font-size: 30px;
+        padding-top: 35%
+    }
+    .mission-para {
+        font-size: 16px;
+        line-height: 21px
+    }
+    .choose-us-subtitle {
+        font-size: 29px;
+        line-height: 33px
+    }
+    .btn.btn-dark {
+        font-size: 11px!important
+    }
+    .btn.btn-dark1 {
+        font-size: 11px!important
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .mission {
+        padding-top: 3%
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .about-caption .encoding-title {
+        font-size: 58px
+    }
+    .about-caption .encoding-para {
+        font-size: 20px;
+        margin-top: -2%
+    }
+    .about-caption {
+        margin-top: 39%;
+        left: 27.5%
+    }
+    .about-title p {
+        font-size: 30px;
+        padding-top: 128%
+    }
+    .about-title {
+        margin-top: -34%;
+        height: 206px
+    }
+    .about-title p {
+        font-size: 30px;
+        padding-top: 75%
+    }
+    .about-para {
+        font-size: 16px
+    }
+    .why-choose-title {
+        font-size: 44px;
+        line-height: 42px
+    }
+    .choose-us-subtitle {
+        font-size: 25px;
+        line-height: 29px
+    }
+    .choose-us-para {
+        font-size: 17px
+    }
+    .mission-para {
+        font-size: 15px;
+        line-height: 19px
+    }
+    .mission-title {
+        font-size: 29px;
+        padding-top: 25%
+    }
+    .computer-img {
+        position: absolute;
+        height: 80%
+    }
+    .btn.btn-dark {
+        font-size: 10px!important
+    }
+    .btn.btn-dark1 {
+        font-size: 10px!important
+    }
+}
+
+@media screen and (max-width:800px) {
+    .about-caption .encoding-title {
+        font-size: 62px
+    }
+    .about-caption .encoding-para {
+        font-size: 26px
+    }
+    .about-caption {
+        margin-top: 70%;
+        left: 18.5%
+    }
+.about-title p {
+    font-size: 24px;
+    padding-top: 75%;
+    margin-left: -3%;
+}
+	.computer-img {
+    position: absolute;
+    height: 40%;
+}
+    .about-title {
+        width: 75%
+    }
+    .btn.btn-dark {
+        width: 24%!important
+    }
+    .btn.btn-dark1 {
+        width: 24%!important
+    }
+    .about-caption {
+        margin-top: 60%;
+        left: 18.5%
+    }
+	.gallery-caption p {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 1%;
+    margin-left: 10px;
+    margin-top: 1%;
+}
+.gallery-border {
+    width: 61%;
+    top: 96.5%;
+    left: 10%;
+}
+
+}
+
+@media screen and (max-width:720px) {
+    .about-intro {
+        height: 66vh
+    }
+    .about-caption {
+        margin-top: 60%;
+        left: 13.5%
+    }
+    .about-para {
+        padding: 5%;
+        margin-bottom: 0;
+        padding-left: 4%
+    }
+    .about-title p {
+        font-size: 25px;
+        padding-top: 104%
+    }
+    .about-caption {
+        margin-top: 56%;
+        left: 13.5%
+    }
+    .choose-us-subtitle {
+        font-size: 23px;
+        line-height: 23px
+    }
+    .mission-title {
+        font-size: 21px
+    }
+    .btn.btn-dark {
+        width: 26%!important
+    }
+}
+
+@media screen and (max-width:480px) {
+    .about-caption {
+        margin-top: 35%;
+        left: 5.5%
+    }
+    .about-caption .encoding-title {
+        font-size: 46px
+    }
+    .about-caption .encoding-para {
+        font-size: 18px
+    }
+    .about-caption {
+        margin-top: 32%;
+        left: 11.5%
+    }
+    .about-title {
+        width: 30%;
+        margin-left: 0
+    }
+    .about-para {
+        padding: 5%;
+        margin-bottom: 0;
+        padding-left: 11%
+    }
+    .why-choose-title {
+        font-size: 38px;
+        line-height: 35px
+    }
+    .computer-img {
+        position: absolute;
+        height: 111%;
+        right: 0;
+        top: 0;
+        width: 35%
+    }
+    .why-choose-img {
+        display: block;
+        margin-bottom: 9%
+    }
+    .choose-us-para {
+        font-size: 15px
+    }
+    .choose-us-para-topspace {
+        padding-top: 15%
+    }
+    .mission-title {
+        padding-top: 0
+    }
+    .first-silde {
+        margin-top: 2%!important
+    }
+    .btn.btn-dark {
+        width: 34%!important
+    }
+    .btn.btn-dark1 {
+        width: 34%!important
+    }
+    .slider-buttons {
+        margin-left: 24%!important;
+        margin-top: 0;
+        margin-bottom: 5%
+    }
+}
+
+@media screen and (max-width:414px) {
+    .about-caption .encoding-title {
+        font-size: 41px
+    }
+    .about-caption .encoding-para {
+        font-size: 16px
+    }
+    .about-para {
+        padding: 5%;
+        margin-bottom: 0;
+        padding-left: 7%;
+        font-size: 15px
+    }
+    .btn.btn-dark {
+        width: 37%!important
+    }
+    .btn.btn-dark1 {
+        width: 37%!important
+    }
+    .slider-buttons {
+        margin-left: 19%!important
+    }
+    .about-title p {
+        font-size: 25px;
+        padding-top: 119%
+    }
+}
+@media screen and (max-width:412px) {
+
+}
+@media screen and (max-width:384px) {
+    .about-caption .encoding-title {
+        font-size: 39px
+    }
+    .about-caption {
+        margin-top: 29%;
+        left: 9.5%
+    }
+    .about-title {
+        width: 33%;
+        margin-left: 0;
+        height: 180px
+    }
+    .about-title p {
+        font-size: 25px;
+        padding-top: 89%
+    }
+    .mission {
+        padding-top: 12%
+    }
+}
+@media screen and (max-width:375px) and (max-height:812px) {
+.btn.btn-dark {
+    width: 38%!important;
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+}
+.btn.btn-dark1
+	{
+	  padding-top: 3% !important;
+    padding-bottom: 3% !important;	
+	}
+}
+@media screen and (max-width:375px) and (max-height:667px) {
+    .about-caption {
+        margin-top: 40%;
+        left: 10.5%
+    }
+    .btn.btn-dark {
+        width: 40%!important
+    }
+	
+}
+
+@media screen and (max-width:360px) {
+    .about-caption {
+        margin-top: 47%;
+        left: 5.5%
+    }
+	.choose-us-para {
+    font-size: 14px;
+    padding-bottom: 2%;
+}
+    .about-caption .encoding-title {
+        font-size: 36px;
+        letter-spacing: -3px
+    }
+    .about-caption {
+        margin-top: 37%;
+        left: 10.5%
+    }
+    .about-title {
+        width: 36%;
+        margin-left: 0;
+        height: 162px
+    }
+    .about-title p {
+        font-size: 23px;
+        padding-top: 80%
+    }
+}
+
+@media screen and (max-width:320px) {
+    .btn.btn-dark1 {
+        width: 45%!important
+    }
+    .btn.btn-dark {
+        width: 45%!important
+    }
+    .slider-buttons {
+        margin-left: 4%!important
+    }
+    .computer-img {
+        position: absolute;
+        height: 111%;
+        right: 4%;
+        top: 0;
+        width: 35%
+    }
+    .about-caption {
+        margin-top: 38%;
+        left: 13%
+    }
+    .about-caption .encoding-title {
+        font-size: 31px;
+        letter-spacing: -3px
+    }
+    .about-caption .encoding-para {
+        font-size: 13px
+    }
+	.lft {
+    width: 68%;
+    padding-left: 2%;
+}
+	
+}
